@@ -1,0 +1,9 @@
+*.sw*
+*~
+*.py[cod]
+build/
+bin/
+node_modules/
+vendor/
+
+.idea
