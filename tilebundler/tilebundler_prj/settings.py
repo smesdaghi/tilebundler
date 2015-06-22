@@ -13,6 +13,10 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 
+TILEBUNDLER_CONFIG = {
+    'tileset_dir': '/Users/s30244/dev/mbtiles'
+}
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
@@ -36,7 +40,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'tilebundler'
+    'tilebundler',
+    'tastypie'
 )
 
 MIDDLEWARE_CLASSES = (
